@@ -37,8 +37,8 @@ spring:
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:postgresql://localhost:5432/gnomeServer
-        username: gnomeServer
-        password:
+        username: postgres
+        password: altra314159
         hikari:
             auto-commit: false
     jpa:
